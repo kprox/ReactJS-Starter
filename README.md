@@ -9,17 +9,19 @@ npm install
 ```
 
 ## Compile
- 
+
 ```
 npm run compile
 ```
 
 ## Usage
  
-Start the development server with this command (this will also compile the project):
+Simply start the development server with this command (it will compile everything needed):
  
 ```
 npm start
 ```
 
 To check if the project is correctly set up and running, access *http://localhost:3000/*
+
+Changes made to JS files will not require recompilation or to restart the server, just refresh the page
